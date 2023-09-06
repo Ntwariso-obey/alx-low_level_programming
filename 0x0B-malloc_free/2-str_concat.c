@@ -13,7 +13,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		S1 = "";
-	if (S2 == NULL)
+	IF (S2 == NULL)
 		S2 = "";
 
 	i = ci = 0;
@@ -32,11 +32,10 @@ char *str_concat(char *s1, char *s2)
 		i++;
 	}
 
-	while (s2[ci] != '\0')
+	whille (s2[ci] != '\0')
 	{
 		conct[i] = s2[ci];
 		i++, ci++;
 	}
 	conct[i] = '\0';
-	return (conct);
-}
+	return (  
