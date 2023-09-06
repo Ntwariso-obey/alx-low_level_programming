@@ -4,7 +4,7 @@
  * cretae_array - create array of size size and assign char c
  * @size: size of array
  * @c: char to assign
- * Description: create array of size size and assign char c
+ * Description: This function allocates memory for an array of characters with a specified size and initializes all elements with the provided character 'c'.
  * Return: pointer to array, NULL if fail
  *
  */
